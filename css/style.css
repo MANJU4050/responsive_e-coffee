@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*********************************************** home section ***************************************************/
+.hd{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-image: url("wall.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.hdr{
+        height: 720px;
+        display: flex;
+        order: 1;
+        width: 99%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 3% 0;
+        color: #e9e6d5;
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+
+.hdr h1{
+    color: white;
+}
+
+.h1{
+    font-size: 3.5rem;
+    font-family: montserrat;
+    margin-bottom: 10%;
+    padding-left: 40px;
+    }
+
+.p1{
+    font-family: pacifico;
+    font-size: 3rem;
+    padding-left: 100px;
+   
+}
+
+.nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+    width: 100%;
+    justify-content: space-evenly;
+    order: 0;
+    padding: 1.5% 0;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.nav img{
+    width: 50px;
+    height: auto;
+  
+}
+
+
+
+
+.nav0{
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    font-weight: 200;
+    
+
+}
+
+.nav0:hover , .ab:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    }
+
+    .nav img:hover{
+        height: auto;
+        box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
+    }
+
+
+/******************************************* brands section ************************************************/
+.brnd{
+    height: 840px;
+    background-image: url("dark1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tp-brand1{
+    width: 100%;
+
+}
+
+.tpbrand-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+
+.brand{
+    width: 600px;
+    height: 206px;
+    margin: 20px;
+    font-family: montserrat;
+    font-size: 1rem;
+    border-radius: 100px 20px 100px 100px;
+    color: #ffffff;
+    font-weight: 600;
+    border: 3px solid #6413e7;  
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.brand:hover {
+    box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
+  }
+
+
+.tpbrands h2{
+    font-size: 5rem;
+    font-family: montserrat;
+    color: white;
+}
+
+.brandimg{
+    padding: 0;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 6px solid white;
+    
+}
+
+.brandd{
+    padding: 2% 1%;
+    line-height: 20px;
+    
+}
+
+.brandimg img{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+}
+
+
+
+.brand h3{
+    margin-bottom: 20px;
+    margin-right: 1px;
+    text-align: left;
+    font-size: 1.2rem;
+    
+}
+
+
+
+/************************************************ types of coffee ********************************************/
+
+
+.type{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(121,211,48);
+    background-image: url("coffee_spices1.png");
+}
+
+.types-1{
+    width: 100%;
+
+}
+
+.types-2{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+ .types-2 img{
+    border: 1px solid #ddd;
+    background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+} 
+
+.types-2 img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+.typee {
+    
+    position: relative;
+    margin: 30px;
+    z-index: 2;
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 95%;
+    height: 10%;
+    border-radius: 3px;
+    transition: .5s ease;
+    margin-left: 2.5%;
+    margin-bottom: 2%;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .typee:hover .overlay {
+    height: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+  }
+
+  .txt{
+    color: white;
+    position: absolute;
+    padding: 0 5%;
+   
+   
+  }
+
+  .types-21 h3{
+      text-align: center;
+      margin-bottom: 15px;
+      font-family: montserrat;
+  }
+  .types-21 p{
+    text-align: justify;
+    font-family: montserrat;
+    font-size: 0.9rem;
+}
+
+.types-22 h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: montserrat;
+}
+.types-22 p{
+  text-align: justify;
+  font-family: montserrat;
+  font-size: 0.9rem;
+}
+
+
+
+
+.type h2{
+    font-size: 5rem;
+    font-family: montserrat;
+    color: white;
+    text-align: center;
+    
+}
+
+/************************************************* order section **********************************************/
+
+.odr{
+    background-image: url("coffee_book1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    font-family: montserrat;
+    
+}
+
+
+
+.odr h2{
+    font-size: 6rem;
+    font-size: montserrat;
+    margin-bottom: 6px;
+    text-align: center;
+    color: white;
+}   
+
+.odr p{
+    font-size: 2rem; 
+    text-align: left;
+    font-family: pacifico;
+    color: #1e1516;
+    margin-bottom: 10px;
+} 
+
+.odrformh{
+  
+    display: flex;
+    align-self: flex-end;
+    margin-right: 200px;
+    flex-basis: 100%;
+
+}
+
+.odrform{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-image: url("espresso.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.amount label{
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+
+.amount-c{
+    margin: 0 5px;
+    flex-basis: 40%;
+}
+.ac{
+    flex-basis: 20%;
+}
+
+.odr h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: white;
+}
+
+.address-5{
+    align-self: center;
+    padding: 0 30%;
+}
+
+
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    color: white;
+    background: transparent;
+}
+
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    background: transparent;
+
+}
+
+::placeholder{
+    color: #ffffff;
+    opacity: 60%;
+    background: transparent;
+}
+
+select option{
+    background-color: #1e1516;
+    color: white;
+}
+
+
+
+
+input[type=text]:focus {
+    border: 1px solid #555;
+  }
+
+  .odr button{
+      margin: 15px;
+      width: 100px;
+      height: 50px;
+      border: solid 1px white;
+      border-radius: 10px;
+      background: transparent;
+      color: white;
+      font-size: 1rem;
+      font-family: montserrat;
+      font-weight: 500;
+  }
+
+  button:hover{
+    
+        box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
+        font-size: 0.9rem;
+
+  }
+
+
+  /***************************************************** footer *************************************************/
+
+  .footer{
+      width: 100%;
+      height: 400px;
+      background-color: aquamarine;
+      background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;  
+    }
+
+  .footer-1{
+      display: flex;
+      flex-direction: column;
+      line-height: 50px;
+      justify-content: center;
+      align-items:center;
+      flex-basis: 35%;
+  }
+
+  .footer-2{
+      display: flex;
+      flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 35%;
+  }
+
+  .footer-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+}
+  
+  .footer-1 a{
+      text-decoration: none;
+      color: white;
+      font-family: montserrat;
+      
+  }
+
+  .footer-1 a:hover{
+
+    color: #6413e7;
+    
+
+  }
+
+  .footer p{
+
+    text-decoration: none;
+      color: white;
+      font-family: montserrat;
+
+  }
+
+  .footer-21{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+      
+  }
+
+  .footer-22{
+      align-self: flex-start;
+      margin-left: 40px;
+      margin-top: 50px;
+    
+}
+
+  .footer img{
+      width: 40px;
+      margin: 25px;
+  }
+
+  .footer .fimg:hover{
+    box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
+
+    
+}
+
+  .footer input[type=text]{
+      width: 350px;
+      
+
+  }
+
+  .footer button{
+    margin-left: 10px;
+    width: 100px;
+    height: 35px;
+    border: solid 1px white;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    font-family: montserrat;
+    font-weight: 500;
+    
+  }
+
